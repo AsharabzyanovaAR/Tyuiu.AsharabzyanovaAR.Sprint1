@@ -1,7 +1,7 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint1;
 namespace Tyuiu.AsharabzyanovaAR.Sprint1.Task3.V10.Lib
 {
-    public class DataService
+    public class DataService    
     {
         public string NumberToMoney(double number)
         {
@@ -16,5 +16,6 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint1.Task3.V10.Lib
 
             return $"{number} руб. - это {rubles} руб. {kopeiki} коп.";
         }
-    }
+
+        
 }
