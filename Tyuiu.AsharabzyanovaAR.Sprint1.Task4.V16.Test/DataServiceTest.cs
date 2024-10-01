@@ -10,8 +10,8 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint1.Task4.V16.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = -3;
-            double wait = 1;
+            double x = 8;
+            double wait = 0.083;
             var res = ds.Calculate(x);
             Assert.AreEqual(wait,res);
         }
