@@ -10,7 +10,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint1.Task6.V7.Test
             DataService ds = new DataService();
             string strTest = "алина малина калина";
             string res = ds.DeleteLastLetter(strTest);
-            string wait = "алинмалинкалин";
+            string wait = "алин малин калин";
             Assert.AreEqual(wait, res);
 
 

@@ -12,9 +12,9 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint1.Task6.V7.Lib
             string resultat = "";
             foreach (string s in c)
             {
-                resultat += s.Remove(s.Length - 1, 1);
+                resultat += s.Remove(s.Length - 1, 1)+" ";
             }
-            return resultat;
+            return resultat.Remove(resultat.Length-1,1);
 
 
 
